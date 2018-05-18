@@ -533,6 +533,7 @@ disk_display="off"
 # Values:   'ascii', 'caca', 'catimg', 'jp2a', 'iterm2', 'off', 'tycat', 'w3m'
 # Flag:     --backend
 image_backend="ascii"
+#image_backend="w3m"
 
 # Image Source
 #
@@ -545,7 +546,33 @@ image_backend="ascii"
 # NOTE: 'auto' will pick the best image source for whatever image backend is used.
 #       In ascii mode, distro ascii art will be used and in an image mode, your
 #       wallpaper will be used.
-image_source="/usr/share/neofetch/ascii/distro/arco"
+image_source="/etc/neofetch/arcolinux.png"
+#image_source=$HOME/".config/neofetch/arcolinux-blue-dark.png"
+#image_source=$HOME/".config/neofetch/arcolinux.png"
+#image_source=$HOME/".config/neofetch/arcolinux-arc.png"
+#image_source=$HOME/".config/neofetch/arcolinux-black.png"
+#image_source=$HOME/".config/neofetch/arcolinux-blue.png"
+#image_source=$HOME/".config/neofetch/arcolinux-blue-dark.png"
+#image_source=$HOME/".config/neofetch/arcolinux-blue-darker.png"
+#image_source=$HOME/".config/neofetch/arcolinux-evopop.png"
+#image_source=$HOME/".config/neofetch/arcolinux-froly.png"
+#image_source=$HOME/".config/neofetch/arcolinux-golden.png"
+#image_source=$HOME/".config/neofetch/arcolinux-green.png"
+#image_source=$HOME/".config/neofetch/arcolinux-havelock.png"
+#image_source=$HOME/".config/neofetch/arcolinux-hibiscus.png"
+#image_source=$HOME/".config/neofetch/arcolinux-mandy.png"
+#image_source=$HOME/".config/neofetch/arcolinux-mantis.png"
+#image_source=$HOME/".config/neofetch/arcolinux-niagara.png"
+#image_source=$HOME/".config/neofetch/arcolinux-numix.png"
+#image_source=$HOME/".config/neofetch/arcolinux-orchid.png"
+#image_source=$HOME/".config/neofetch/arcolinux-paper.png"
+#image_source=$HOME/".config/neofetch/arcolinux-violet.png"
+#image_source=$HOME/".config/neofetch/arcolinux-polo.png"
+#image_source=$HOME/".config/neofetch/arcolinux-punch.png"
+#image_source=$HOME/".config/neofetch/arcolinux-smoke.png"
+#image_source=$HOME/".config/neofetch/arcolinux-tacao.png"
+#image_source=$HOME/".config/neofetch/arcolinux-tory.png"
+#image_source=$HOME/".config/neofetch/arcolinux-white.png"
 
 
 # Ascii Options
@@ -564,7 +591,7 @@ image_source="/usr/share/neofetch/ascii/distro/arco"
 #       Change this to 'Lubuntu', 'Xubuntu', 'Ubuntu-GNOME' or 'Ubuntu-Budgie' to use the flavors.
 # NOTE: Arch, Crux and Gentoo have a smaller logo variant.
 #       Change this to 'arch_small', 'crux_small' or 'gentoo_small' to use the small logos.
-ascii_distro="arco"
+#ascii_distro="arcolinux"
 
 # Ascii Colors
 #
