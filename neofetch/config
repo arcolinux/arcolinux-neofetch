@@ -532,8 +532,8 @@ disk_display="off"
 # Default:  'ascii'
 # Values:   'ascii', 'caca', 'catimg', 'jp2a', 'iterm2', 'off', 'tycat', 'w3m'
 # Flag:     --backend
-image_backend="ascii"
-#image_backend="w3m"
+#image_backend="ascii"
+image_backend="w3m"
 
 # Image Source
 #
@@ -548,7 +548,7 @@ image_backend="ascii"
 #       wallpaper will be used.
 #image_source="/etc/neofetch/arcolinux.png"
 #image_source=$HOME/".config/neofetch/arcolinux-blue-dark.png"
-#image_source=$HOME/".config/neofetch/arcolinux.png"
+image_source=$HOME/".config/neofetch/arcolinux.png"
 #image_source=$HOME/".config/neofetch/arcolinux-arc.png"
 #image_source=$HOME/".config/neofetch/arcolinux-black.png"
 #image_source=$HOME/".config/neofetch/arcolinux-blue.png"
@@ -648,7 +648,7 @@ crop_offset="center"
 # Values:  'auto', '00px', '00%', 'none'
 # Flags:   --image_size
 #          --size
-image_size="250"
+image_size="300"
 
 # Ggap between image and text
 #
@@ -664,8 +664,8 @@ gap=3
 # Values:  'px'
 # Flags:   --xoffset
 #          --yoffset
-yoffset=100
-xoffset=20
+yoffset=10
+xoffset=10
 
 # Image background color
 # Only works with the w3m backend.
