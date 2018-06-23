@@ -782,7 +782,7 @@ scrot_cmd="auto"
 # Default: 'neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png'
 # Values:  'string'
 # Flag:    --scrot_name
-scrot_name="neofetch-$(date +%F-%I-%M-%S-${RANDOM}).png"
+scrot_name="arcolinux-$(date +%F-%I-%M-%S-${RANDOM}).png"
 
 # Image upload host
 # Where to upload the image.
